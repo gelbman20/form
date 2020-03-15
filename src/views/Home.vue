@@ -1,12 +1,15 @@
 <template>
   <div class="home">
-    <h1>This is a home page</h1>
+      <FormActualPrices />
   </div>
 </template>
 
 <script>
-
+import FormActualPrices from "../components/FormActualPrices";
 export default {
-  name: 'Home'
+  name: 'Home',
+  components: {
+    FormActualPrices
+  }
 }
 </script>
